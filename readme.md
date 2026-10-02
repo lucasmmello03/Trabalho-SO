@@ -11,7 +11,24 @@ python3 process.py
 python3 threads.py
 ```
 
-## Resultados
+## Resultados - PC do Lucas
+
+```
+Total de arquivos: 1000
+INFO:    4179162
+WARNING: 1193929
+ERROR:    596422
+```
+
+| Versão     | Tempo         |
+|------------|--------------:|
+| Sequencial | 0,8829 s      |
+| Processos  | 0,2702 s      |
+| Threads    | 1,0419 s      |
+
+![Sequencial - Processos - Threads](Tudao_Lucas.jpeg)
+
+## Resultados do PC do Rafael
 
 ```
 Total de arquivos: 1000
