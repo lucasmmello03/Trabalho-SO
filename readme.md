@@ -15,16 +15,20 @@ python3 threads.py
 
 ```
 Total de arquivos: 1000
-INFO:    4179162
-WARNING: 1193929
-ERROR:    596422
+INFO:    4161768
+WARNING: 1189078
+ERROR:    594515
 ```
 
 | Versão     | Tempo         |
 |------------|--------------:|
-| Sequencial | 0,8829 s      |
-| Processos  | 0,2702 s      |
-| Threads    | 1,0419 s      |
+| Sequencial | 1,6246 s      |
+| Processos  | 0,4180 s      |
+| Threads    | 1,6815 s      |
+
+![Sequencial](img/image-1.png)
+![Process](img/image-2.png)
+![Threads](img/image-3.png)
 
 ## Conclusão
 
